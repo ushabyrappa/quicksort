@@ -1,4 +1,4 @@
-#include <vector
+#include <vector>
 #include <list>
 #include <deque>
 #include <set>
@@ -13,7 +13,7 @@ using namespace std;
 
 int main(int argc, char* argv[])
 {
-	std::vector<std::string> v(10);// modifie line
+	std::vector<std::string> v(10);
 	v[0]="Paris";
 	v[1]="London";
 	v[2]="Stockholm";
